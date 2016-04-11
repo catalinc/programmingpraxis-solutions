@@ -2,6 +2,7 @@
 
 # Intellij
 .idea/
+*.iml
 
 # Package Files #
 *.jar
