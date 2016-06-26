@@ -1,3 +1,5 @@
+// Solutions to https://programmingpraxis.com/2016/06/21/two-interview-questions-2/ 
+ 
 let rand2() =
     let r = System.Random()
     r.Next(0, 2)
