@@ -28,7 +28,7 @@ class Test(unittest.TestCase):
                        ('b', 10), ('b', 4), ('b', 4),
                        ('b', 4), ('b', 10), ('b', 1),
                        ('c', 5), ('c', 1), ('c', 10)]
-        r = average_scores(test_scores)
+        r = average_scores(test_scores, top_n=5)
         self.assertEqual(9, r['a'])
         self.assertEqual(6, r['b'])
         self.assertNotIn('c', r)
