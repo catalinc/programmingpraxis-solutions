@@ -27,5 +27,6 @@ class Test(unittest.TestCase):
         self.assertEqual("I", abbrev_sentence("I"))
         self.assertEqual("P9g P4s", abbrev_sentence("Programming Praxis"))
 
+
 if __name__ == '__main__':
     unittest.main()
