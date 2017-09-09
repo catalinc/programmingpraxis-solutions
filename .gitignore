@@ -14,3 +14,17 @@ hs_err_pid*
 
 # Visual Studio Code
 .vscode/
+
+# Gradle
+.gradle/
+gradle/
+gradlew/
+build/
+gradlew
+gradlew.bat
+
+# Python
+*.pyc
+
+# macOS
+.DS_Store
